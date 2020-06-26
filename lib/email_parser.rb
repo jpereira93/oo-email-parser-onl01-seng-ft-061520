@@ -1,6 +1,7 @@
 class EmailAddressParser
   parser = EmailAddressParser.new
   attr_accessor: CSV
+  
 end
 
 
