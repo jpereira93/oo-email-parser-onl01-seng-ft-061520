@@ -1,7 +1,7 @@
 class EmailAddressParser
-  parser = EmailAddressParser.new
-  attr_accessor: CSV
-  
+  # parser = EmailAddressParser.new
+  attr_accessor: csv
+
 end
 
 
