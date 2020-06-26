@@ -6,7 +6,7 @@ class EmailAddressParser
   end
 
   def parse
-    emails.delete(',').uniq
+    emails.delete(',').split.uniq
   end
 end
 # Build a class EmailAddressParser that accepts a string of unformatted
