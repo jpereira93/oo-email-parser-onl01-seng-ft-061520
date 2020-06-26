@@ -1,6 +1,6 @@
 class EmailAddressParser
   # parser = EmailAddressParser.new
-  attr_accessor: csv
+  attr_accessor :emails
 
 end
 
